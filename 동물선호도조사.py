@@ -28,9 +28,9 @@ if __name__ == "__main__" :
     buttonOk =Button(window,text="사진보기",command=myFunc)
     labelImage =Label(window,width=200,height=200,bg="pink", image= None)
 
-    photo1 =PhotoImage(file="gif/pikachu.gif")
-    photo2 =PhotoImage(file="gif/bukein.gif")
-    photo3 =PhotoImage(file="gif/yadon.gif")
+    photo1 =PhotoImage(file="gif/pikachu.png")
+    photo2 =PhotoImage(file="gif/bukein.png")
+    photo3 =PhotoImage(file="gif/yadon.png")
 
     labelText.pack(padx=5,pady=5)
     rb1.pack(padx=5,pady=5)
