@@ -15,11 +15,11 @@ with st.form('my_form'):
 if submitted:
     st.markdown(f'''
         ===your order===\n
-        -coffee bean:'{coffee_bean}'
-        -coffee roastring:'{coffee_roast}'
-        -brewing:'{brewing}'
-        -serving:'{serving}'
-        -milk:'{milk}'
+        -coffee bean:'{coffee_bean}'\n
+        -coffee roastring:'{coffee_roast}'\n
+        -brewing:'{brewing}'\n
+        -serving:'{serving}'\n
+        -milk:'{milk}'\n
         -own cup:'{owncup}'
         ''')
 else:
