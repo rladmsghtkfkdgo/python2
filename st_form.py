@@ -14,7 +14,7 @@ with st.form('my_form'):
     
 if submitted:
     st.markdown(f'''
-        ===your order===
+        ===your order===\n
         -coffee bean:'{coffee_bean}'
         -coffee roastring:'{coffee_roast}'
         -brewing:'{brewing}'
