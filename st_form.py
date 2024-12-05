@@ -9,7 +9,7 @@ with st.form('my_form'):
     brewing=st.selectbox('brewing',['airopress','drip','frenchpress','mochapoto','syphone'])
     serving=st.selectbox('serving',['hot','ice','frape'])
     milk=st.select_slider('milk',['none','low','mideum','high'])
-    owncup=st.checkbox('DO you have your own cup?')
+    owncup=st.checkbox('Do you have your own cup?')
     submitted=st.form_submit_button('submit')
     
 if submitted:
